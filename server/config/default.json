@@ -1,0 +1,5 @@
+{
+    "serverPort": 5000,
+    "mongoAtlas": "mongodb+srv://root:root@cloud-app.pjbmf.mongodb.net/?retryWrites=true&w=majority",
+    "secretKey": "mern-secret-key"
+}
