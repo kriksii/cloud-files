@@ -1,12 +1,21 @@
 import React from 'react'
 import './app.scss'
 
-import Navbar from './navbar/Navbar'
+import { Routes, Route } from 'react-router-dom'
+
+import Layout from './Layout'
+import Registration from './registration/Registration'
+import Login from './login/Login'
 
 const App = () => {
   return (
     <div>
-      <Navbar />
+      <Routes>
+        <Route path='/' element={<Layout />}>
+          <Route path='registration' element={<Registration />} />
+          <Route path='login' element={<Login />} />
+        </Route>
+      </Routes>
     </div>
   )
 }

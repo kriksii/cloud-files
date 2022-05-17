@@ -17,3 +17,18 @@ body {
 #root {
     width: 100%;
 }
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .wrap {
+    margin: 0 auto;
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  

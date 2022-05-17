@@ -9,4 +9,4 @@ const rootReducer = combineReducers({
     files: fileReducer
 })
 
-export const store = createStore(rootReducer, applyMiddleware(composeWithDevTools(thunk)))
+export const store = createStore(rootReducer, composeWithDevTools(applyMiddleware(thunk)))
